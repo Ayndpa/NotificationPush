@@ -1,8 +1,6 @@
 # NotificationPush
 此应用可以通过fcm从一台手机向另一台手机转发通知
 
-目前仅在酷安发布[传送门](https://www.coolapk.com/apk/223104)
-
 ## 需要
 * 一台旧手机作为服务器
 * 一台可以接收fcm推送的主力机
@@ -22,9 +20,5 @@
 * 下载源码
 * 在firebase中建立新项目
 * 根据Google的firebase文档加入google-services.json文件
-* 在根目录底下创建一个local.properties文件，然后写入
-```
-FCM_AUTHORIZATION="你对应的内容"
-FCM_SENDER="你对应的内容"
-```
+* 替换service-account.json
 * 编译
